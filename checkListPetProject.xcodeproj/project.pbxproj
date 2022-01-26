@@ -17,6 +17,9 @@
 		5C3DD556279E805000D1E63E /* checkListPetProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3DD555279E805000D1E63E /* checkListPetProjectTests.swift */; };
 		5C3DD560279E805000D1E63E /* checkListPetProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3DD55F279E805000D1E63E /* checkListPetProjectUITests.swift */; };
 		5C3DD562279E805000D1E63E /* checkListPetProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3DD561279E805000D1E63E /* checkListPetProjectUITestsLaunchTests.swift */; };
+		5C5BF65627A127FB00B18F89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BF65527A127FB00B18F89 /* Item.swift */; };
+		5C5BF65727A127FB00B18F89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BF65527A127FB00B18F89 /* Item.swift */; };
+		5C5BF65827A127FB00B18F89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BF65527A127FB00B18F89 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		5C3DD55B279E805000D1E63E /* checkListPetProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkListPetProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3DD55F279E805000D1E63E /* checkListPetProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkListPetProjectUITests.swift; sourceTree = "<group>"; };
 		5C3DD561279E805000D1E63E /* checkListPetProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkListPetProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5BF65527A127FB00B18F89 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		5C3DD53A279E804F00D1E63E /* checkListPetProject */ = {
 			isa = PBXGroup;
 			children = (
+				5C5BF65427A127DE00B18F89 /*  Model */,
 				5C3DD53B279E804F00D1E63E /* AppDelegate.swift */,
 				5C3DD53D279E804F00D1E63E /* SceneDelegate.swift */,
 				5C3DD53F279E804F00D1E63E /* ViewController.swift */,
@@ -128,6 +133,14 @@
 				5C3DD561279E805000D1E63E /* checkListPetProjectUITestsLaunchTests.swift */,
 			);
 			path = checkListPetProjectUITests;
+			sourceTree = "<group>";
+		};
+		5C5BF65427A127DE00B18F89 /*  Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C5BF65527A127FB00B18F89 /* Item.swift */,
+			);
+			path = " Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5BF65627A127FB00B18F89 /* Item.swift in Sources */,
 				5C3DD546279E804F00D1E63E /* checkListPetProject.xcdatamodeld in Sources */,
 				5C3DD540279E804F00D1E63E /* ViewController.swift in Sources */,
 				5C3DD53C279E804F00D1E63E /* AppDelegate.swift in Sources */,
@@ -272,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5BF65727A127FB00B18F89 /* Item.swift in Sources */,
 				5C3DD556279E805000D1E63E /* checkListPetProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3DD560279E805000D1E63E /* checkListPetProjectUITests.swift in Sources */,
+				5C5BF65827A127FB00B18F89 /* Item.swift in Sources */,
 				5C3DD562279E805000D1E63E /* checkListPetProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
